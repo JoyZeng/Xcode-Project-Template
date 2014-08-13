@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>Custom Application</string>
+		<key>Description</key>
+	<string>This template provides a podfile and GitHub's Objective-C .gitignore file, based on SingleView and CoreData application using AFNetworking. </string>
+	<key>Identifier</key>
+	<string>com.joyzeng.template.project.ios</string>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Ancestors</key>
+	<array>
+		<string>com.joyzeng.template.project.CocoaPods</string>
+		<string>com.apple.dt.unit.coreDataCocoaTouchApplication</string>
+		<string>com.apple.dt.unit.singleViewApplication</string>
+	</array>
+	<key>Concrete</key>
+	<true/>
+	<key>Definitions</key>
+	<dict>
+
+		<key>Classes/AppDelegate/.gitkeep</key>
+			<dict>
+              <key>Path</key>
+			  <string>gitkeep</string>
+              <key>Group</key>
+              <string>AppDelegate</string>
+         	</dict>
+
+		<key>../.gitignore</key>
+		<dict>
+			<key>Path</key>
+			<string>gitignore</string>
+			<key>Group</key>
+			<string>Supporting Files</string>
+		</dict>
+		
+		<key>Classes/Models/.gitkeep</key>
+		<dict>
+			<key>Path</key>
+			<string>gitkeep</string>
+			<key>Group</key>
+			<string>Models</string>
+		</dict>
+
+			<key>Classes/Macros/.gitkeep</key>
+            <dict>
+              <key>Path</key>
+			  <string>gitkeep</string>
+              <key>Group</key>
+              <string>Macros</string>
+            </dict>
+
+            <key>Classes/Categories/.gitkeep</key>
+            <dict>
+              <key>Path</key>
+			  <string>gitkeep</string>
+              <key>Group</key>
+              <string>Categories</string>
+            </dict>
+
+            <key>Classes/Helpers/.gitkeep</key>
+            <dict>
+              <key>Path</key>
+			  <string>gitkeep</string>
+              <key>Group</key>
+              <string>Helpers</string>
+            </dict>
+
+            <key>Classes/Vendors/.gitkeep</key>
+            <dict>
+              <key>Path</key>
+			  <string>gitkeep</string>
+              <key>Group</key>
+              <string>Vendors</string>
+            </dict>
+            
+            <key>Classes/General/.gitkeep</key>
+            <dict>
+              <key>Path</key>
+			  <string>gitkeep</string>
+              <key>Group</key>
+              <string>General</string>
+            </dict>
+
+         	<key>Classes/Resources/.gitkeep</key>
+         	<dict>
+              <key>Path</key>
+			  <string>gitkeep</string>
+         	  <key>Group</key>
+              <string>Resources</string>
+         	</dict>
+
+		<key>___VARIABLE_classPrefix:identifier___AppDelegate.m:applicationdidFinishLaunchingWithOptions</key>
+	<string>- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    NSURLCache *URLCache = [[NSURLCache alloc] initWithMemoryCapacity:8 * 1024 * 1024 diskCapacity:20 * 1024 * 1024 diskPath:nil];
+    [NSURLCache setSharedURLCache:URLCache];
+    
+    [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
+    
+    return YES;
+}
+</string>
+ 		
+	</dict>
+	<key>Nodes</key>
+	<array>
+		<string>../.gitignore</string>
+		<string>___VARIABLE_classPrefix:identifier___AppDelegate.m:import:AFNetworkActivityIndicatorManager.h</string>
+		<string>Classes/AppDelegate/.gitkeep</string>
+		<string>Classes/General/.gitkeep</string>
+		<string>Classes/Macros/.gitkeep</string>
+		<string>Classes/Categories/.gitkeep</string>
+		<string>Classes/Helpers/.gitkeep</string>
+		<string>Classes/Resources/.gitkeep</string>
+		<string>Classes/Vendors/.gitkeep</string>
+	</array>
+	<key>Options</key>
+	<array>
+	</array>
+	<key>SortOrder</key>
+	<integer>1</integer>
+</dict>
+</plist>
