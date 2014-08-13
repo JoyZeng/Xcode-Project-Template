@@ -7,6 +7,6 @@ Xcode5 Project Template, with CocoaPods &amp; .gitignore, based on SingleView &a
 Download, unzip, copy the `Custom Templates` folder to :
 `~/Library/Developer/Xcode/Templates/Project Templates/`
 
-If the folder does not exist, then creat it yourself.
+If the path does not exist, then creat it yourself.
 
 Restart Xcode, create new project, you can see it on the left pane.
