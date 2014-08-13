@@ -17,7 +17,7 @@ The template generates the structure as below, which is inspired from
 
 - AppDelegate
 - Models
-- Macro
+- Macros
 - Categories
 - General
 - Helpers
