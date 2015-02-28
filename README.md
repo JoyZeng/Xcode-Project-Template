@@ -1,7 +1,7 @@
-Xcode5-Project-Template
+Xcode-Project-Template
 =======================
 
-Xcode5 Project Template, with CocoaPods &amp; .gitignore, based on SingleView &amp; CoreData Application, using AFNetworking, ReactiveCocoa and MVVM.
+Xcode Project Template, with CocoaPods &amp; .gitignore, based on SingleView &amp; CoreData Application, using AFNetworking, ReactiveCocoa and MVVM.
 
 ##Installation
 Download, unzip, copy the `Custom Templates` folder to :
