@@ -1,75 +1,39 @@
 platform :ios,'7.0'
-#toolkit
-#pod 'MBProgressHUD' # An activity indicator that can be added to your views.
+
+inhibit_all_warnings!
+
 pod 'SVProgressHUD'
-# pod 'Nimbus' # A comprehensive toolkit of modules aimed at replacing Three20.
-#pod 'SSToolkit' # A collection of well-documented iOS classes for making life easier.
+pod 'KVNProgress'
 pod 'ReactiveCocoa'
+pod 'AFNetworking'
+pod 'Reachability'
+pod 'BlocksKit'
+pod 'LBBlurredImage'
+pod 'TSMessages'
+pod 'MagicalRecord'
+pod 'SDWebImage'
+pod 'TMCache'
+pod 'UMeng'
+pod 'OpenUDID'
+pod 'TTTAttributedLabel'
+pod 'Mantle'
+pod 'Masonry'
+pod 'CBStoreHouseRefreshControl'
+pod 'AMScrollingNavbar'
+pod 'PAPreferences'
+pod 'ObjectiveSugar'
+pod 'FCFileManager'
+pod 'Shimmer'
+pod 'SWTableViewCell'
+pod 'RNFrostedSidebar'
+pod 'UIView+Positioning'
+pod 'UIColor+iOS7Colors'
+pod 'SAMCategories'
+pod 'AsyncDisplayKit'
+pod 'Pop'
+pod 'JSONModel'
+pod 'SVPullToRefresh', :head
 
-#networking
-pod 'AFNetworking' # Network connectivity and response handling.
-pod 'Reachability' # Network access detection.
-# pod 'ShareKit'
-
-#code helper
-# pod 'BlocksKit'
-# pod 'ConciseKit'
-
-# View
-#pod 'ViewDeck' # An implementation of the sliding functionality found in the Path 2.0 or Facebook iOS apps.
-# pod 'GHSidebarNav' # like ViewDeck
-# pod 'PSStackedView' # Open source implementation of Twitter/iPad stacked UI
-# pod 'AwesomeMenu' # Path 2.0 menu using CoreAnimation :).
-# pod 'CMPopTipView' # Custom UIView for iOS that pops up an animated "bubble" pointing at a button or other view. Useful for popup tips.
-# pod 'MTStatusBarOverlay' #  A custom iOS status bar overlay seen in Apps like Reeder,Evernote and GoogleMobile App.
-# pod 'JMTabView' # Stylish and animated tab view for iOS rendered entirely using core graphics.
- pod 'LBBlurredImage' # An UIImageView category that permit to set an image and make this blurred
- pod 'TSMessages' # Easy to use and customizable messages/notifications for iOS à la Tweetbot
-
-#table view
-# pod 'QuickDialog'
-
-#plotting framework
-# pod 'CorePlot' size too big
-
-#database
-# pod 'FMDB' # A Cocoa / Objective-C wrapper around SQLite.
-pod 'MagicalRecord' # Super Awesome Easy Fetching for Core Data
-
-# Utility
-# pod 'SSZipArchive'
-# pod 'CHCSVParser'
-# pod 'SSKeychain' # Simple Cocoa wrapper for the keychain that works on Mac and iOS.
-
-# Animation
-#pod 'FTUtils' # Phone utilities mostly for Core Animation.
-
-#Cache
-#pod 'SDWebImage'
-
-#Analytics
-#pod 'UMeng'
-#pod 'OpenUDID'
-# pod 'FlurrySDK'
-
-#Text
-#pod 'TTTAttributedLabel' #A drop-in replacement for UILabel that supports attributes, data detectors,links, and more.
-
-#ADs
-# pod 'Google-AdMob-Ads-SDK'
-
-#In APP Purchase
-#pod 'MKStoreKit'
-
-#Promote
-# pod 'Appirater' #  A utility that reminds your iPhone app's users to review the app.
-
-#Test
-# pod 'PonyDebugger'  # Remote network and data debugging for your native iOS app using Chrome Developer Tools.
-
-# pod 'Specta'
-# pod 'Expecta',     '~> 0.2.0'   # expecta matchers
-# pod 'OCHamcrest',  '~> 1.7'     # hamcrest matchers
-# pod 'OCMock',      '~> 2.0.1'   # OCMock
-# pod 'LRMocky',     '~> 0.9.1'   # LRMocky
-# pod 'Fingertips' # Touch indicators for iOS applications.
+#target : YOUR_TEST_TARGET, :exclusive => true do
+#pod 'Kiwi'
+end

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>com.joyzeng.template.project.CocoaPods</string>
+	<string>me.zengyi.template.project.CocoaPods</string>
 	<key>Name</key>
 	<string>CocoaPods</string>
 	<key>Ancestors</key>
