@@ -1,7 +1,7 @@
 Xcode5-Project-Template
 =======================
 
-Xcode5 Project Template, with CocoaPods &amp; .gitignore, based on SingleView &amp; CoreData Application.
+Xcode5 Project Template, with CocoaPods &amp; .gitignore, based on SingleView &amp; CoreData Application, using AFNetworking, ReactiveCocoa and MVVM.
 
 ##Installation
 Download, unzip, copy the `Custom Templates` folder to :
@@ -17,8 +17,19 @@ The template generates the structure as below, which is inspired from
 
 - AppDelegate
 - Models
+- Views
+- ViewModels
 - Macros
 - Categories
-- General
 - Helpers
 - Vendors
+
+##Configuration
+
+To understand how it works and configure, see [This article](http://zengyi.me/blog/2014/08/13/create-custom-xcode5-project-templates/).
+
+---
+
+## Licenses
+
+All source code is licensed under the [MIT License](https://raw.github.com/rs/SDWebImage/master/LICENSE).
